@@ -1,0 +1,231 @@
+@media (max-width: 1200px) {
+  /* .gallivant-tab {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .nav-tabs .nav-item {
+    display: inline-block;
+  } */
+}
+
+@media (max-width: 992px) {
+  .no_wrap__scroll {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .logo img {
+    max-width: 200px;
+  }
+
+  .mid-info li img {
+    height: 35px;
+    max-width: inherit;
+  }
+
+  .phone p,
+  .phone span {
+    font-size: 14px;
+  }
+
+  .mid-info li {
+    margin: 0 20px;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: -290px;
+    width: 250px;
+    height: 100%;
+    background: #ebebeb;
+    z-index: 9;
+    transition: 300ms ease all;
+  }
+
+  .top-menu-bar,
+  .close-btn,
+  .main-nav ul li {
+    display: block;
+  }
+
+  .main-nav ul li a {
+    display: block;
+    border-bottom: 1px solid #d2d2d2;
+    color: #565353;
+    font-size: 14px;
+  }
+
+  a.small-device-logo {
+    display: block;
+  }
+
+  .nav-inner {
+    display: block;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .sub-menu {
+    position: static;
+    transition: inherit;
+    transform: inherit;
+    display: none;
+  }
+
+  #sub-menu li a {
+    color: #333;
+  }
+
+  .banner-content h1 {
+    font-size: 40px;
+  }
+
+  .title-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .all-sec-padding {
+    padding: 40px 0;
+  }
+
+  .main-slide-container figure {
+    height: 450px;
+  }
+
+  .main-slide-container figure::after {
+    height: 500px;
+    width: 500px;
+  }
+
+  .main-slide-content h1 span {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-slide-content h1 span {
+    font-size: 40px !important;
+  }
+  .footer-col-wrapper h3 {
+    font-size: 1rem;
+  }
+
+  .show__booking_btn {
+    opacity: 1;
+  }
+
+  .hide__booking_btn {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider-thumb {
+    left: 25px;
+  }
+
+  .slider-thumb p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-social-media li a {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+
+  .top-header p {
+    font-size: 14px;
+  }
+
+  .top-header p i {
+    font-size: 16px;
+  }
+
+  .title-wrapper h2 {
+    font-size: 25px;
+  }
+
+  h2.section__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .top-header p {
+    display: none;
+  }
+
+  .top-header {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 376px) {
+  .folder__wrapper {
+    height: 320px;
+  }
+}
+
+@media (min-width: 320px) {
+  .d-320-flex {
+    display: flex;
+  }
+  .mb-320-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .rounded__card_text.short_description {
+    height: 250px;
+    overflow: hidden;
+  }
+  .modal__title {
+    font-size: 18px;
+  }
+  .inner__page {
+    padding: 70px 0 !important;
+  }
+  .logo {
+    font-size: 60px;
+  }
+  .inner__white_space {
+    padding: 30px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #subscribe .form-row,
+  .square__group {
+    max-width: 660px;
+  }
+  .donate__page {
+    padding: 70px 0 !important;
+  }
+
+  .font__40--lg {
+    font-size: 40px !important;
+  }
+
+  .donation__card--secondary {
+    height: 155px;
+  }
+
+  .donation__card--secondary img {
+    width: 80px;
+  }
+}
+
+@media (min-width: 450px) {
+  .d-450-flex {
+    display: flex;
+  }
+}
