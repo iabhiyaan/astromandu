@@ -1,7 +1,16 @@
-const swipeableElement = document.querySelector(".main-head");
+// const swipeableElement = document.querySelector(".main-head");
 
-swipeableElement.addEventListener("touchstart", handleTouchStart, false);
-swipeableElement.addEventListener("touchmove", handleTouchMove, false);
+// swipeableElement.addEventListener("touchstart", handleTouchStart, false);
+// swipeableElement.addEventListener("touchmove", handleTouchMove, false);
+
+const swipeableElements = document.querySelectorAll(
+  "body section:not(.main-slider)"
+);
+
+swipeableElements.forEach((swipeableElement) => {
+  swipeableElement.addEventListener("touchstart", handleTouchStart, false);
+  swipeableElement.addEventListener("touchmove", handleTouchMove, false);
+});
 
 var xDown = null;
 var yDown = null;
@@ -35,13 +44,13 @@ function handleTouchMove(evt) {
     if (xDiff > 0) {
       /* left swipe || close sidebar */
       $("body").removeClass("overlay");
-      $(".main-nav").animate({ left: "-290px" }, 300);
-      $("body").animate({ left: "0px" }, 300);
+      $(".main-nav").animate({ left: "-290px" }, 150);
+      $("body").animate({ left: "0px" }, 150);
     } else {
       /* right swipe || open sidebar */
       $("body").addClass("overlay");
-      $(".main-nav").animate({ left: "0px" }, 300);
-      $("body").animate({ left: "250px" }, 300);
+      $(".main-nav").animate({ left: "0px" }, 150);
+      $("body").animate({ left: "250px" }, 150);
     }
   } else {
     if (yDiff > 0) {

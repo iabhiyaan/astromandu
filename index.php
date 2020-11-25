@@ -1,5 +1,4 @@
 <?php require('inc/header.php') ?>
-
 <!-- main slider section starts -->
 <section id="home" class="main-slider">
    <div class="main-slide">
