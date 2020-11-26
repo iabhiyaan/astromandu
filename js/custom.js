@@ -4,7 +4,7 @@
 // swipeableElement.addEventListener("touchmove", handleTouchMove, false);
 
 const swipeableElements = document.querySelectorAll(
-  "body section:not(.main-slider)"
+  "body section:not(.no__swipe)"
 );
 
 swipeableElements.forEach((swipeableElement) => {
@@ -398,17 +398,19 @@ $(".astro__minus").click(function (e) {
 
 // select amount in donate form starts
 
-// if other amount change then set that value in amount which is in payment step
+// if other amount changes then set that value in amount which is in payment step
 $(".other__amount input").on("change", function (e) {
   $("span.donated__amount").text(`$${e.target.value}`);
 });
 
 $(".select_amount").on("click", function () {
-  $(this)
-    .find(".display_front")
+  // uncheck amount from other amount section
+  $(".display_front")
     .removeClass("selected_amount")
     .find(".fa")
     .removeClass("fa-check");
+
+  // find the checkbox of selected amount and turn on check
   $(this)
     .find(".display_front")
     .addClass("selected_amount")

@@ -11,7 +11,7 @@
    </div>
 </section>
 
-<section class="inner__page">
+<section class="inner__page pb-3">
    <div class="container">
       <div class="row">
          <?php include('inc/appointmentForm.php') ?>
@@ -68,6 +68,13 @@
                </div>
             </div>
          </div>
+      </div>
+   </div>
+</section>
+
+<section class="inner__page no__swipe p-0">
+   <div class="container">
+      <div class="row">
          <div class="col-12">
             <h3 class="py-3">Other Details</h3>
             <div class="row no_wrap__scroll">
@@ -91,7 +98,6 @@
                      <p>Mailing Address: Kathmandu, Nepal</p>
                   </div>
                </div>
-
                <div class="col-xl-4 col-lg-6 col-md-9 col-12">
                   <div class="folder__wrapper">
                      <h3>Payment Details</h3>
@@ -102,190 +108,182 @@
                   </div>
                </div>
             </div>
-            <div class="row mb-5">
-               <div class="col-12 mt-4">
-                  <div class="inner__content">
-                     <div class="inner__content__text inner__white_space">
-                        <div>
-                           <p>
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.
-                           </p>
-                           <p>
-                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.
-                           </p>
-                        </div>
+         </div>
+      </div>
+   </div>
+</section>
 
-                     </div>
+<section class="inner__page pt-3">
+   <div class="container">
+      <div class="row mb-5">
+         <div class="col-12 mt-4">
+            <div class="inner__content">
+               <div class="inner__content__text inner__white_space">
+                  <div>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.
+                     </p>
+                     <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eius vero repellat quo tempore deleniti magni doloribus expedita maiores ea.
+                     </p>
                   </div>
-               </div>
-               <div class="col-12 mt-5">
-                  <div class="inner__content">
-                     <div class="inner__content__text inner__white_space">
-                        <div class="row">
-                           <?php include('inc/serviceRateForm.php') ?>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Annual update
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          Important astrological trends in the next twelve months. 30-45 minute</span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Compatibility
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          Discuss about the existing
-                                          relationship between two
-                                          individual or a new one
-                                       </span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
 
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Muhurta
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          It helps you to choose the right
-                                          time for the right event
-
-                                       </span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
-
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Business
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          We discuss about your
-                                          business, its growth and
-                                          partners compatibility Including
-                                          the main issue based on your
-                                          question
-                                          45-60 minutes
-
-                                       </span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
-
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Full life analysis
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          We discuss full life analysis
-                                          like good and bad times.
-                                          Relation with family, friends
-                                          and children. Financial up
-                                          and downs period of life.
-                                          45-60 minutes
-                                       </span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
-
-                              </div>
-                           </div>
-                           <div class="col-xl-4 col-md-6">
-                              <div class="rounded__card">
-                                 <div class="rounded__card_body">
-                                    <div class="rounded__card_text">
-                                       <h3>
-                                          <a href="#" class="text__tertiary mb-0">
-                                             Buy a gift
-                                          </a>
-                                       </h3>
-                                       <span>
-                                          You can book an
-                                          appointment for your beloved
-                                          once as your gift.
-                                       </span>
-                                    </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                       <p class="text__tertiary mb-0">Nrs. 500</p>
-                                       <button class="btn primary_rounded_button border_radius__sm service_rate__modal_trigger p-2 font-weight__600 font__xs">Request an appointment</button>
-                                    </div>
-                                 </div>
-
-                              </div>
-                           </div>
-                        </div>
-                        <!-- <div class="text-right">
-                           <button class="btn primary_rounded_button border_radius__sm book__modal_trigger">Request an appointment</button>
-                        </div> -->
-                     </div>
-                  </div>
                </div>
             </div>
          </div>
-         <div class="col-12 mb-4">
+         <div class="col-12 mt-5">
             <div class="inner__content">
                <div class="inner__content__text inner__white_space">
                   <div class="row">
                      <?php include('inc/serviceBookForm.php') ?>
                      <?php include('inc/enquiryForm.php') ?>
+                     <!-- Service given by astrologer starts -->
                      <div class="col-xl-4 col-md-6">
                         <div class="rounded__card">
-                           <div class="rounded__card_top">
-                              <!--<a href="#" class="text__tertiary">-->
-                              <!--   <img src="images/garajap.jpg" alt="card-title" class="rounded__card_img">-->
-                              <!--</a>-->
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Annual update
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    Important astrological trends in the next twelve months. 30-45 minute</span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
                            </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Compatibility
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    Discuss about the existing
+                                    relationship between two
+                                    individual or a new one
+                                 </span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Muhurta
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    It helps you to choose the right
+                                    time for the right event
+
+                                 </span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Business
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    We discuss about your
+                                    business, its growth and
+                                    partners compatibility Including
+                                    the main issue based on your
+                                    question
+                                    45-60 minutes
+
+                                 </span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Full life analysis
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    We discuss full life analysis
+                                    like good and bad times.
+                                    Relation with family, friends
+                                    and children. Financial up
+                                    and downs period of life.
+                                    45-60 minutes
+                                 </span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
+                           <div class="rounded__card_body">
+                              <div class="rounded__card_text">
+                                 <h3>
+                                    <a href="#" class="text__tertiary mb-0">
+                                       Buy a gift
+                                    </a>
+                                 </h3>
+                                 <span>
+                                    You can book an
+                                    appointment for your beloved
+                                    once as your gift.
+                                 </span>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <!-- Service given by astrologer ends -->
+
+                     <!-- Other Service given by astrologer start -->
+                     <div class="col-xl-4 col-md-6">
+                        <div class="rounded__card">
                            <div class="rounded__card_body">
                               <div class="rounded__card_text">
                                  <h3>
@@ -293,11 +291,18 @@
                                        Graha Jap
                                     </a>
                                  </h3>
+                                 <span>
+                                    We discuss full life analysis
+                                    like good and bad times.
+                                    Relation with family, friends
+                                    and children. Financial up
+                                    and downs period of life.
+                                    45-60 minutes
+                                 </span>
 
                               </div>
                               <div class="d-flex justify-content-between align-items-center">
                                  <p class="text__tertiary mb-0">Nrs. 500</p>
-
                                  <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs service__book_trigger">Book now</button>
                               </div>
                            </div>
@@ -306,11 +311,6 @@
                      </div>
                      <div class="col-xl-4 col-md-6">
                         <div class="rounded__card">
-                           <div class="rounded__card_top">
-                              <!--<a href="#" class="text__tertiary">-->
-                              <!--   <img src="images/garajap.jpg" alt="card-title" class="rounded__card_img">-->
-                              <!--</a>-->
-                           </div>
                            <div class="rounded__card_body">
                               <div class="rounded__card_text">
                                  <h3>
@@ -318,6 +318,14 @@
                                        E Puja
                                     </a>
                                  </h3>
+                                 <span>
+                                    We discuss full life analysis
+                                    like good and bad times.
+                                    Relation with family, friends
+                                    and children. Financial up
+                                    and downs period of life.
+                                    45-60 minutes
+                                 </span>
 
                               </div>
                               <div class="d-flex justify-content-between align-items-center">
@@ -330,11 +338,6 @@
                      </div>
                      <div class="col-xl-4 col-md-6">
                         <div class="rounded__card">
-                           <div class="rounded__card_top">
-                              <!--<a href="#" class="text__tertiary">-->
-                              <!--   <img src="images/garajap.jpg" alt="card-title" class="rounded__card_img">-->
-                              <!--</a>-->
-                           </div>
                            <div class="rounded__card_body">
                               <div class="rounded__card_text">
                                  <h3>
@@ -342,7 +345,14 @@
                                        Sampurna Puja
                                     </a>
                                  </h3>
-
+                                 <span>
+                                    We discuss full life analysis
+                                    like good and bad times.
+                                    Relation with family, friends
+                                    and children. Financial up
+                                    and downs period of life.
+                                    45-60 minutes
+                                 </span>
                               </div>
                               <div class="d-flex justify-content-end align-items-center">
                                  <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs enquiry__book_trigger">Enquiry</button>
@@ -351,6 +361,11 @@
 
                         </div>
                      </div>
+                     <!-- Other Service given by astrologer ends -->
+
+                  </div>
+                  <div class="text-right">
+                     <button class="btn primary_rounded_button border_radius__sm book__modal_trigger">Request an appointment</button>
                   </div>
                </div>
             </div>

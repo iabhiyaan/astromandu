@@ -44,7 +44,7 @@
                $astros = array_fill(0, 6, 'Ramesh Dhakal');
                ?>
                <?php foreach ($astros as $astro) { ?>
-                  <div class="col-xl-4 col-md-6">
+                  <div class="col-xl-3 col-md-6">
                      <div class="rounded__card">
                         <div class="rounded__card_top">
                            <a href="astrologerDetail.php" class="text__tertiary">
@@ -68,7 +68,7 @@
                                  <li class="rounded__card_list_item"><a class="rounded__card_list_link" href="#"> <i class="fa fa-youtube-play"></i> </a></li>
                               </ul>
 
-                              <a class="book__modal_trigger btn border-1 border-tertiary-300 text__tertiary text-capitalize font__sm hover__bg_tertiary">book now</a>
+                              <a class="book__modal_trigger btn border-1 border-tertiary-300 text__tertiary text-capitalize font__sm hover__bg_tertiary inner__book_now cursor__pointer">book now</a>
 
                            </div>
                         </div>

@@ -1,6 +1,6 @@
 <?php require('inc/header.php') ?>
 <!-- main slider section starts -->
-<section id="home" class="main-slider">
+<section id="home" class="main-slider no__swipe">
    <div class="main-slide">
       <div class="main-slide-container">
          <figure style="background-image:url(images/banner__1.jpg)">

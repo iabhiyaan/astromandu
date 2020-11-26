@@ -3,6 +3,23 @@ p strong {
   color: #333;
 }
 
+.inner__page.p-0 {
+  padding: 0 !important;
+}
+
+.inner__page.pb-3 {
+  padding-bottom: 1rem !important;
+}
+
+.inner__page.pt-3 {
+  padding-top: 1rem !important;
+}
+
+.inner__page .inner__book_now {
+  padding: 5px 9px;
+  font-size: 13px !important;
+}
+
 .inner__content__text {
   overflow-wrap: break-word;
 }
@@ -1484,7 +1501,7 @@ fieldset .form-card {
 
 .payment__top {
   border-bottom: 1px solid #ddd;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .master_card {

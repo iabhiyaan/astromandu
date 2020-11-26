@@ -92,6 +92,18 @@
                         <option value="1">Ramesh Dhakal</option>
                      </select>
                   </div>
+                  <div class="col-12">
+                     <p class="text__tertiary py-1 font-sm m-0">Choose Service</p>
+                     <select name="service">
+                        <option value>--Select Service--</option>
+                        <option value="1">Annual update</option>
+                        <option value="1">Compatibility</option>
+                        <option value="1">Muhurta</option>
+                        <option value="1">Business</option>
+                        <option value="1">Full life analysis</option>
+                        <option value="1">Buy a gift</option>
+                     </select>
+                  </div>
 
                   <div class="col-12">
                      <textarea name="message" cols="30" rows="10" placeholder="Please send the list of questions to make your reading more useful."></textarea>
