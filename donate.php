@@ -16,10 +16,11 @@
             </div>
          </div>
          <div class="col-md-6 text-center p-0 mt-3 mb-2">
-            <h3 class="donate__form__title">Donate Today दानपत्र</h3>
+            <h3 class="donate__form__title">Donate Today</h3>
             <div class="inner__content inner__white_space">
                <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
                   <h2 id="heading" class="py-3">donate us</h2>
+
                   <p class="text-center">Decrease the negative effects from planets</p>
                   <form method="post" id="msform" accept-charset="UTF-8" action="#" name="paymentForm" class="require-validation" data-cc-on-file="false" data-stripe-publishable-key="pk_live_gtX3TSx265nZG67RCqPMCJ9r">
                      <!-- progressbar -->
@@ -38,55 +39,38 @@
                               <div class="col-5">
                                  <h2 class="steps">Step 1 - 3</h2>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
+                              <div class="form-group col-4">
                                  <div class="total select_amount">
                                     <span class="display_front">$20</span>
                                     <input type="checkbox" class=" amount" value="20" name="amount[]">
                                  </div>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
+                              <div class="form-group col-4">
                                  <div class="total select_amount">
                                     <span class="display_front">$35</span>
                                     <input type="checkbox" class=" amount" value="35" name="amount[]">
                                  </div>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
+                              <div class="form-group col-4">
                                  <div class="total select_amount">
                                     <span class="display_front">$42</span>
                                     <input type="checkbox" class=" amount" value="42" name="amount[]">
                                  </div>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
+                              <div class="form-group col-4">
                                  <div class="total select_amount">
                                     <span class="display_front">$55</span>
                                     <input type="checkbox" class=" amount" value="55" name="amount[]">
                                  </div>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
+                              <div class="form-group col-4">
                                  <div class="total select_amount">
                                     <span class="display_front">$62</span>
                                     <input type="checkbox" class=" amount" value="62" name="amount[]">
                                  </div>
                               </div>
-                              <div class="form-group col-4 col-lg-3">
-                                 <div class="total select_amount">
-                                    <span class="display_front">$100</span>
-                                    <input type="checkbox" class=" amount" value="100" name="amount[]">
-                                 </div>
-                              </div>
-                              <div class="form-group col-4 col-lg-3">
-                                 <div class="total select_amount">
-                                    <span class="display_front">$200</span>
-                                    <input type="checkbox" class=" amount" value="200" name="amount[]">
-                                 </div>
-                              </div>
-                              <div class="form-group col-4 col-lg-3">
-                                 <div class="total select_amount">
-                                    <span class="display_front">$300</span>
-                                    <input type="checkbox" class=" amount" value="300" name="amount[]">
-                                 </div>
-                              </div>
-                              <div class="form-group col-4 col-lg-3">
+
+                              <div class="form-group col-4">
                                  <div class="total select_amount other__amount">
                                     <input type="text" class=" amount form-control" placeholder="Other" name="amount[]">
                                  </div>
@@ -225,6 +209,9 @@
                      </fieldset>
                      <!-- payment section ends -->
                   </form>
+                  <button data-toggle="modal" data-target="#babyBlessing" class="btn text-capitalize tertiary_transparent_button">
+                     Baby Blessing
+                  </button>
                </div>
             </div>
          </div>
@@ -236,6 +223,11 @@
    <div class="donation__footer inner__page">
       <div class="container">
          <div class="row no_wrap__scroll">
+            <div class="col-12">
+               <h2 class="primary__title text-uppercase section__title">
+                  other donating option
+               </h2>
+            </div>
             <div class="col-lg-4 mb-3">
                <div class="donation__card--secondary border_radius__sm text-center">
                   <div class="mt-3">
@@ -262,10 +254,41 @@
                   <span class="font__sm">astrokathmandu@gmail.com</span>
                </div>
             </div>
+            <div class="col-12 text-center">
+               <h3 class="py-4">Authorised by Astro Kathmandu</h3>
+            </div>
          </div>
       </div>
    </div>
 </section>
+
+<!-- Baby blessing modal  -->
+<div class="modal fade" id="babyBlessing" tabindex="-1" role="dialog">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content border_radius__sm border__none">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"> <span class="text-uppercase">Jagrat Chalise </span> supporting details </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <div class="child_detail_wrapper d-lg-flex">
+               <div class="flex__2">
+                  <p>A/C Name: JAGRAT CHALISE</p>
+                  <p>A/C No: 8998989123901902390</p>
+               </div>
+               <div class="p-1 flex__1">
+                  <img src="images/banner__2.jpg" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-danger bg__primary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
 
 <!--
 <div class="col-12">

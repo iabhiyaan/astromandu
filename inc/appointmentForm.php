@@ -109,28 +109,30 @@
                      <textarea name="message" cols="30" rows="10" placeholder="Please send the list of questions to make your reading more useful."></textarea>
                   </div>
                   <div class="col-md-12">
-                     <label class="text__tertiary py-1 font-sm m-0">Payment</label>
+                     <label class="text__tertiary py-1 font-sm m-0 text-capitalize">payment method before
+                        consultation</label>
                      <select name="payment" class="payment__wallet">
                         <option value>--Select Payment--</option>
                         <option value="digital-wallet">Digital Wallet</option>
                         <option value="home-office">Home/Office Visit</option>
-                        <option value="remit">Remit</option>
                      </select>
                   </div>
                   <div class="col-12">
-                     <p class="text__tertiary py-1 font-sm m-0">
-                        Please select number of minutes
-                     </p>
-                     <div class="whole-cart-wrapp">
-                        <div class="cart_list">
-                           <div class="qty-wrapper">
-                              <span class="minus astro__minus">-</span>
-                              <input type="text" name="minutes__quantity" class="qty-input m-0" value="30" readonly="">
-                              <span class="plus astro__plus">+</span>
-                           </div>
+                     <label class="text__tertiary py-1 font-sm m-0">Please select number of minutes</label>
+                     <div class="d-flex justify-content-between">
+                        <div>
+                           <select name="number_of_minutes" class="number_of_minutes">
+                              <option value>--Select Minutes --</option>
+                              <option value="15">15</option>
+                              <option value="30">30</option>
+                              <option value="45">45</option>
+                           </select>
                         </div>
-                        <span class="text__tertiary py-1 m-0 font__normal priest__cost">$300</span>
+                        <div class="pt-2">
+                           <span class="text__tertiary m-0 font__normal priest__cost"></span>
+                        </div>
                      </div>
+
                   </div>
                   <div class="col-12 text-right">
                      <button disabled class="payment__button">Proceed to checkout</button>

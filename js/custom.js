@@ -327,6 +327,20 @@ $(document).ready(function () {
 var cost = 250;
 
 var minutesPerCost = 300;
+var fifteenMinutesCost = 150;
+// increase price when number of minutes is changed in astrologer booking form starts
+getAstroAppointmentPrice(fifteenMinutesCost);
+function getAstroAppointmentPrice(price) {
+  $(".number_of_minutes").change(function (e) {
+    const minutes = e.target.value;
+    if (minutes == "") {
+      $("span.priest__cost").text("");
+      return;
+    }
+    $("span.priest__cost").text(`$${(price / 15) * minutes}`);
+  });
+}
+// increase price when number of minutes is changed in astrologer booking form ends
 
 // clicking plus
 $(".service__plus").click(function (e) {

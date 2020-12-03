@@ -21,7 +21,7 @@
                                 <a href="index.php" class="logo">Astro Kathmandu </a>
                                 <p class="text-white mt-1">Traditional vedic astrology and spiritual services</p>
                             </div>
-                            <div class="calendar-box lh__normal text-white d-flex pt-1 pb-3">
+                            <div class="calendar-box lh__normal text-white d-flex pt-5 pb-3">
                                 <span class="media icon-text current-date mr-3 font__sm align-items-center">
                                     <span class="left-icon lnr lnr-calendar-full mr-2"></span><span class="main-title">
                                         <?php echo date('F j, Y'); ?> </span>
@@ -55,7 +55,7 @@
                                 <li><a href="about.php">Anil Chalise</a></li>
                                 <li><a href="astrologer.php">Astrologers</a></li>
                                 <li><a href="services.php">services</a></li>
-                                <li><a href="video.php">video</a></li>
+                                <li><a href="trip-list.php">Trips</a></li>
                                 <li><a href="childs.php">Child Sponser</a></li>
                                 <li><a href="register.php">register</a></li>
                                 <li><a href="login.php">login</a></li>

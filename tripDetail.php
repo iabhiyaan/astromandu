@@ -6,7 +6,7 @@
    <div class="container zIndex__1">
       <h2 class="text-uppercase">Trip </h2>
       <p>
-         <a class="breadcrumb__links" href="index.php">Home</a> / <a class="breadcrumb__links" href="services.php">Services</a> / <span class="breadcrumb__links">Trip </span>
+         <a class="breadcrumb__links" href="index.php">Home</a> / <span class="breadcrumb__links">Trip </span>
       </p>
    </div>
 </section>

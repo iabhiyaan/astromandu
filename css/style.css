@@ -56,6 +56,10 @@ a.bg__primary:hover {
   color: var(--primary__color) !important;
 }
 
+.text__dark__blue {
+  color: var(--dark__blue) !important;
+}
+
 .text__primary:hover {
   color: var(--primary__color--300) !important;
 }
@@ -170,6 +174,10 @@ img {
   line-height: 20px !important;
 }
 
+.lh__md {
+  line-height: 24px !important;
+}
+
 .overflow__x--auto {
   overflow-x: auto;
 }
@@ -279,6 +287,10 @@ img {
   border-color: var(--primary__color--300);
 }
 
+.border__dark__blue {
+  border-color: var(--dark__blue);
+}
+
 .text__primary--300 {
   color: var(--primary__color--300) !important;
 }
@@ -361,6 +373,16 @@ img {
 .hover__bg_tertiary:hover,
 .tertiary_transparent_button:hover {
   background: var(--tertiary__color);
+  color: #fff !important;
+}
+
+.hover__bg_primary:hover {
+  background: var(--primary__color);
+  color: #fff !important;
+}
+
+.hover__bg_dark__blue:hover {
+  background: var(--dark__blue);
   color: #fff !important;
 }
 

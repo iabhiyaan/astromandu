@@ -68,7 +68,7 @@
                                  <li class="rounded__card_list_item"><a class="rounded__card_list_link" href="#"> <i class="fa fa-youtube-play"></i> </a></li>
                               </ul>
 
-                              <a class="book__modal_trigger btn border-1 border-tertiary-300 text__tertiary text-capitalize font__sm hover__bg_tertiary inner__book_now cursor__pointer">book now</a>
+                              <a class="book__modal_trigger btn border-1 border__dark__blue text__dark__blue text-capitalize font__sm hover__bg_dark__blue inner__book_now cursor__pointer">book now</a>
 
                            </div>
                         </div>

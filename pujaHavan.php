@@ -135,11 +135,11 @@
                                                 <span class="plus service__plus">+</span>
                                              </div>
                                           </div>
-                                          <span class="text__tertiary py-1 m-0 font__normal service__cost">$250</span>
+                                          <!-- <span class="text__tertiary py-1 m-0 font__normal service__cost">$250</span> -->
                                        </div>
                                     </div>
                                     <div class="col-12 text-right py-3">
-                                       <button data-service-id="1" data-priest="1" class="payment__button service__payment">Proceed to checkout</button>
+                                       <button data-service-id="1" data-priest="1" class="payment__button service__payment">Submit</button>
                                     </div>
 
                                  </div>

@@ -33,6 +33,7 @@
                         <ul>
                             <li><a href="programs.php">Programs</a></li>
                             <li><a href="#">Book your Puja/Rituals</a></li>
+                            <li><a href="video.php">Video</a></li>
                             <li><a href="gallery.php">Photo album</a></li>
                             <li><a href="cpage.php">Online Astrology Class </a></li>
                             <li><a href="cpage.php">Privacy Policy</a></li>

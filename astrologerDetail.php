@@ -84,7 +84,7 @@
                      <p>Father's Name: John</p>
                      <p>Mother's Name: Will</p>
                      <p>Permanent Address: Kathmandu, Nepal</p>
-                     <p>Temporary Address: Kathmandu, Nepal</p>
+                     <p>Service Address: Kathmandu, Nepal</p>
                      <p>Birth Place: Kathmandu, Nepal</p>
                      <p>Country: Nepal</p>
                      <p>Gender: Male</p>
@@ -135,8 +135,8 @@
             <div class="inner__content">
                <div class="inner__content__text inner__white_space">
                   <div class="row">
-                     <?php include('inc/serviceBookForm.php') ?>
                      <?php include('inc/enquiryForm.php') ?>
+                     <?php include('inc/serviceBookForm.php') ?>
                      <!-- Service given by astrologer starts -->
                      <div class="col-xl-4 col-md-6">
                         <div class="rounded__card">
@@ -315,7 +315,7 @@
                               <div class="rounded__card_text">
                                  <h3>
                                     <a href="#" class="text__tertiary mb-0">
-                                       E Puja
+                                       Puja
                                     </a>
                                  </h3>
                                  <span>
@@ -342,25 +342,21 @@
                               <div class="rounded__card_text">
                                  <h3>
                                     <a href="#" class="text__tertiary mb-0">
-                                       Sampurna Puja
+                                       Bank Details
                                     </a>
                                  </h3>
-                                 <span>
-                                    We discuss full life analysis
-                                    like good and bad times.
-                                    Relation with family, friends
-                                    and children. Financial up
-                                    and downs period of life.
-                                    45-60 minutes
-                                 </span>
-                              </div>
-                              <div class="d-flex justify-content-end align-items-center">
-                                 <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs enquiry__book_trigger">Enquiry</button>
+                                 <div class="lh__md">
+                                    <span class="d-block">Account name: XYZX</span>
+                                    <span class="d-block">Account number: 457389203232376563</span>
+                                    <span class="d-block">Bank name: Prabhu Bank</span>
+                                    <span class="d-block">Swift code: 0900990</span>
+                                 </div>
                               </div>
                            </div>
 
                         </div>
                      </div>
+
                      <!-- Other Service given by astrologer ends -->
 
                   </div>
@@ -389,5 +385,33 @@
          </a>
          <span>: 9841749906 </span>
       </div>
+   </div>
+</div> -->
+
+<!--
+   sampurna puja
+<div class="col-xl-4 col-md-6">
+   <div class="rounded__card">
+      <div class="rounded__card_body">
+         <div class="rounded__card_text">
+            <h3>
+               <a href="#" class="text__tertiary mb-0">
+                  Sampurna Puja
+               </a>
+            </h3>
+            <span>
+               We discuss full life analysis
+               like good and bad times.
+               Relation with family, friends
+               and children. Financial up
+               and downs period of life.
+               45-60 minutes
+            </span>
+         </div>
+         <div class="d-flex justify-content-end align-items-center">
+            <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs enquiry__book_trigger">Enquiry</button>
+         </div>
+      </div>
+
    </div>
 </div> -->
