@@ -16,9 +16,8 @@
             </div>
          </div>
          <div class="col-md-6 text-center p-0 mt-3 mb-2">
-            <h3 class="donate__form__title">Donate Today</h3>
-            <div class="inner__content inner__white_space">
-               <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+            <div class="inner__content inner__white_space py-2">
+               <div class="card px-0 pb-0 mt-3 mb-3">
                   <h2 id="heading" class="py-3">donate us</h2>
 
                   <p class="text-center">Decrease the negative effects from planets</p>
@@ -90,6 +89,11 @@
                                        Planetary Donation
                                     </label>
                                  </div>
+                              </div>
+                              <div class="col-12 pb-3">
+                                 <span data-toggle="modal" data-target="#babyBlessing" class="btn text-capitalize tertiary_transparent_button">
+                                    Baby Blessing
+                                 </span>
                               </div>
 
                            </div>
@@ -209,9 +213,7 @@
                      </fieldset>
                      <!-- payment section ends -->
                   </form>
-                  <button data-toggle="modal" data-target="#babyBlessing" class="btn text-capitalize tertiary_transparent_button">
-                     Baby Blessing
-                  </button>
+
                </div>
             </div>
          </div>
@@ -267,20 +269,16 @@
    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content border_radius__sm border__none">
          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle"> <span class="text-uppercase">Jagrat Chalise </span> supporting details </h5>
+            <h5 class="modal-title" id="exampleModalLongTitle"> BABY BLESSING </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">&times;</span>
             </button>
          </div>
          <div class="modal-body">
-            <div class="child_detail_wrapper d-lg-flex">
-               <div class="flex__2">
-                  <p>A/C Name: JAGRAT CHALISE</p>
-                  <p>A/C No: 8998989123901902390</p>
-               </div>
-               <div class="p-1 flex__1">
-                  <img src="images/banner__2.jpg" alt="">
-               </div>
+            <div>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor eveniet explicabo aut tenetur aliquam veritatis neque, iure harum veniam quis molestiae? Debitis at architecto similique assumenda sint officia tempore itaque? Tenetur, nam! Impedit doloribus dicta facilis molestias numquam eius?
+               </p>
             </div>
          </div>
          <div class="modal-footer">

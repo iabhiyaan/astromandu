@@ -1476,6 +1476,11 @@ input[type="radio"] {
   color: #fff;
 }
 
+.inner__content.inner__white_space.py-2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
 .donate__form__title {
   position: relative;
   top: 33px;

@@ -150,10 +150,7 @@
                                  <span>
                                     Important astrological trends in the next twelve months. 30-45 minute</span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
                         </div>
                      </div>
@@ -172,10 +169,7 @@
                                     individual or a new one
                                  </span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
 
                         </div>
@@ -195,10 +189,7 @@
 
                                  </span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
 
                         </div>
@@ -218,14 +209,11 @@
                                     partners compatibility Including
                                     the main issue based on your
                                     question
-                                    45-60 minutes
+
 
                                  </span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
 
                         </div>
@@ -245,13 +233,10 @@
                                     Relation with family, friends
                                     and children. Financial up
                                     and downs period of life.
-                                    45-60 minutes
+
                                  </span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
 
                         </div>
@@ -271,10 +256,7 @@
                                     once as your gift.
                                  </span>
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
 
-                              </div>
                            </div>
 
                         </div>
@@ -297,12 +279,11 @@
                                     Relation with family, friends
                                     and children. Financial up
                                     and downs period of life.
-                                    45-60 minutes
+
                                  </span>
 
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+                              <div class="text-right">
                                  <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs service__book_trigger">Book now</button>
                               </div>
                            </div>
@@ -324,12 +305,11 @@
                                     Relation with family, friends
                                     and children. Financial up
                                     and downs period of life.
-                                    45-60 minutes
+
                                  </span>
 
                               </div>
-                              <div class="d-flex justify-content-between align-items-center">
-                                 <p class="text__tertiary mb-0">Nrs. 500</p>
+                              <div class="text-right">
                                  <button class="btn primary_rounded_button border_radius__sm p-2 font-weight__600 font__xs service__book_trigger">Book now</button>
                               </div>
                            </div>
@@ -405,7 +385,7 @@
                Relation with family, friends
                and children. Financial up
                and downs period of life.
-               45-60 minutes
+
             </span>
          </div>
          <div class="d-flex justify-content-end align-items-center">

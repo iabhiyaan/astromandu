@@ -289,25 +289,25 @@
 </section>
 <!-- our astrologers end -->
 
-<!-- our programs starts -->
-<section id="programs" class="bg__tertiary--200 white__space--md">
+<!-- our service starts -->
+<section id="service" class="bg__tertiary--200 white__space--md">
    <div class="container">
       <h2 class="primary__title text-uppercase section__title">
-         our programs
+         our services
       </h2>
       <div class="row">
          <div class="col-xl-4 col-md-6">
             <div class="rounded__card">
                <div class="rounded__card_top">
-                  <a href="programDetail.php" class="text__tertiary">
+                  <a href="serviceDetail.php" class="text__tertiary">
                      <img src="images/banner__2.jpg" alt="card-title" class="rounded__card_img">
                   </a>
                </div>
                <div class="rounded__card_body">
                   <div class="rounded__card_text short_description">
                      <h3>
-                        <a href="programDetail.php" class="text__tertiary">
-                           Sanskrit Language
+                        <a href="serviceDetail.php" class="text__tertiary">
+                           Consultation
                         </a>
                      </h3>
                      <span class="text__tertiary--300">
@@ -315,7 +315,7 @@
                      </span>
                   </div>
                   <div class="text-right">
-                     <a href="programDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
+                     <a href="serviceDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
                   </div>
                </div>
 
@@ -324,14 +324,14 @@
          <div class="col-xl-4 col-md-6">
             <div class="rounded__card">
                <div class="rounded__card_top">
-                  <a href="programDetail.php" class="text__tertiary">
+                  <a href="serviceDetail.php" class="text__tertiary">
                      <img src="images/banner__1.jpg" alt="card-title" class="rounded__card_img">
                   </a>
                </div>
                <div class="rounded__card_body">
                   <div class="rounded__card_text short_description">
                      <h3>
-                        <a href="programDetail.php" class="text__tertiary">
+                        <a href="serviceDetail.php" class="text__tertiary">
                            Jyotish
                         </a>
                      </h3>
@@ -340,7 +340,7 @@
                      </span>
                   </div>
                   <div class="text-right">
-                     <a href="programDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
+                     <a href="serviceDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
                   </div>
                </div>
 
@@ -349,14 +349,14 @@
          <div class="col-xl-4 col-md-6">
             <div class="rounded__card">
                <div class="rounded__card_top">
-                  <a href="programDetail.php" class="text__tertiary">
+                  <a href="serviceDetail.php" class="text__tertiary">
                      <img src="images/banner__2.jpg" alt="card-title" class="rounded__card_img">
                   </a>
                </div>
                <div class="rounded__card_body">
                   <div class="rounded__card_text short_description">
                      <h3>
-                        <a href="programDetail.php" class="text__tertiary">
+                        <a href="serviceDetail.php" class="text__tertiary">
                            Karma Kanda
                         </a>
                      </h3>
@@ -365,10 +365,15 @@
                      </span>
                   </div>
                   <div class="text-right">
-                     <a href="programDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
+                     <a href="serviceDetail.php" class="btn text-capitalize tertiary_transparent_button">read more</a>
                   </div>
                </div>
 
+            </div>
+         </div>
+         <div class="col-12">
+            <div class="text-center mt-3">
+               <a href="services.php" class="text-capitalize primary_rounded_button">read more</a>
             </div>
          </div>
       </div>
@@ -459,6 +464,11 @@
                   </div>
                </div>
 
+            </div>
+         </div>
+         <div class="col-12">
+            <div class="text-center mt-3">
+               <a href="trip-list.php" class="text-capitalize primary_rounded_button">read more</a>
             </div>
          </div>
 
