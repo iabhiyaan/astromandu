@@ -676,28 +676,28 @@
          </p>
          <ul class="square__list d-flex justify-content-between">
             <li class="square__list_item">
-               <a href="#" class="square__list_link">
+               <a href="donate.php" class="square__list_link">
                   $5
                </a>
             </li>
 
             <li class="square__list_item">
-               <a href="#" class="square__list_link">
+               <a href="donate.php" class="square__list_link">
                   $10
                </a>
             </li>
             <li class="square__list_item">
-               <a href="#" class="square__list_link">
+               <a href="donate.php" class="square__list_link">
                   $25
                </a>
             </li>
             <li class="square__list_item">
-               <a href="#" class="square__list_link">
+               <a href="donate.php" class="square__list_link">
                   $50
                </a>
             </li>
             <li class="square__list_item">
-               <a href="#" class="square__list_link">
+               <a href="donate.php" class="square__list_link">
                   $100
                </a>
             </li>

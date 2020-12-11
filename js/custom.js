@@ -543,9 +543,13 @@ $(document).ready(function () {
 // Show description if donation_for is planetary in donate page
 $(".donation_for").change(function (e) {
   if (e.target.value == "planetary-donation") {
-    $(".show_donation__description").removeClass("d-none");
-  } else {
-    $(".show_donation__description").addClass("d-none");
+    $("#planetaryDonation").modal("show");
+  }
+  if (e.target.value == "general-donation") {
+    $("#generalDonation").modal("show");
+  }
+  if (e.target.value == "baby-blessing") {
+    $("#babyBlessing").modal("show");
   }
 });
 

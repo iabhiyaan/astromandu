@@ -40,9 +40,14 @@
             <div class="main-head bg__grey--300">
                 <div class="container">
                     <div class="top-menu-bar">
-                        <span class="menu-line"></span>
-                        <span class="menu-line"></span>
-                        <span class="menu-line"></span>
+                        <div>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line"></span>
+                        </div>
+                        <div>
+                            <a href="#" class="text-capitalize primary_rounded_button border_radius__sm">Donate</a>
+                        </div>
                     </div>
                     <nav class="main-nav">
                         <span class="close-btn"><i class="fa fa-times"></i></span>

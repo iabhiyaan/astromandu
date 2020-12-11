@@ -46,6 +46,12 @@
     /* transition: 150ms ease all; */
   }
 
+  .top-menu-bar {
+    display: flex !important;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
   .top-menu-bar,
   .close-btn,
   .main-nav ul li {

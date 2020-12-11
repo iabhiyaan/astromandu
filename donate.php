@@ -90,10 +90,13 @@
                                     </label>
                                  </div>
                               </div>
-                              <div class="col-12 pb-3">
-                                 <span data-toggle="modal" data-target="#babyBlessing" class="btn text-capitalize tertiary_transparent_button">
-                                    Baby Blessing
-                                 </span>
+                              <div class="form-check col-12">
+                                 <div class="row pl-2">
+                                    <input id="baby__blessing" class="col-1 radio--sm donation_for" type="radio" name="donation_for" value="baby-blessing">
+                                    <label for="baby__blessing" class="col-11 px-0 font__sm">
+                                       Baby Blessing
+                                    </label>
+                                 </div>
                               </div>
 
                            </div>
@@ -224,12 +227,11 @@
 <section class="no__swipe">
    <div class="donation__footer inner__page">
       <div class="container">
+         <h2 class="primary__title text-uppercase section__title">
+            other donating option
+         </h2>
          <div class="row no_wrap__scroll">
-            <div class="col-12">
-               <h2 class="primary__title text-uppercase section__title">
-                  other donating option
-               </h2>
-            </div>
+
             <div class="col-lg-4 mb-3">
                <div class="donation__card--secondary border_radius__sm text-center">
                   <div class="mt-3">
@@ -264,7 +266,7 @@
    </div>
 </section>
 
-<!-- Baby blessing modal  -->
+<!-- Baby blessing modal starts -->
 <div class="modal fade" id="babyBlessing" tabindex="-1" role="dialog">
    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content border_radius__sm border__none">
@@ -287,6 +289,57 @@
       </div>
    </div>
 </div>
+<!-- Baby blessing modal ends -->
+
+<!-- Generation Donation modal starts -->
+<div class="modal fade" id="generalDonation" tabindex="-1" role="dialog">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content border_radius__sm border__none">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"> Generation Donation </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <div>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor eveniet explicabo aut tenetur aliquam veritatis neque, iure harum veniam quis molestiae? Debitis at architecto similique assumenda sint officia tempore itaque? Tenetur, nam! Impedit doloribus dicta facilis molestias numquam eius?
+               </p>
+            </div>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-danger bg__primary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Planetary modal ends -->
+
+<!-- Planetary modal starts -->
+<div class="modal fade" id="planetaryDonation" tabindex="-1" role="dialog">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content border_radius__sm border__none">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"> Planetary Donation </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body">
+            <div>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor eveniet explicabo aut tenetur aliquam veritatis neque, iure harum veniam quis molestiae? Debitis at architecto similique assumenda sint officia tempore itaque? Tenetur, nam! Impedit doloribus dicta facilis molestias numquam eius?
+               </p>
+            </div>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-danger bg__primary" data-dismiss="modal">Close</button>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Planetary modal ends -->
 
 <!--
 <div class="col-12">

@@ -11,6 +11,25 @@
          <div class="content">
             <form action="#" method="POST">
                <div class="form-row">
+
+                  <div class="col-12">
+                     <p class="text__tertiary py-1 font-sm m-0">Personal Detail</p>
+                  </div>
+                  <div class="col-md-6">
+                     <input type="text" placeholder="Full Name" name="fullname">
+                  </div>
+                  <div class="col-md-6">
+                     <input type="email" placeholder="Email Address" name="email">
+                  </div>
+                  <div class="col-md-12">
+                     <select name="gender">
+                        <option value>Gender</option>
+                        <option value="1">Male</option>
+                        <option value="0">Female</option>
+                        <option value="11">Others</option>
+                     </select>
+                  </div>
+
                   <div class="col-12">
                      <p class="text__tertiary py-1 font-sm m-0">Date of Birth</p>
                      <div class="row">
@@ -66,23 +85,7 @@
                   <div class="col-md-6">
                      <input type="text" placeholder="City" name="city">
                   </div>
-                  <div class="col-12">
-                     <p class="text__tertiary py-1 font-sm m-0">Personal Detail</p>
-                  </div>
-                  <div class="col-md-6">
-                     <input type="text" placeholder="Full Name" name="fullname">
-                  </div>
-                  <div class="col-md-6">
-                     <input type="email" placeholder="Email Address" name="email">
-                  </div>
-                  <div class="col-md-12">
-                     <select name="gender">
-                        <option value>Gender</option>
-                        <option value="1">Male</option>
-                        <option value="0">Female</option>
-                        <option value="11">Others</option>
-                     </select>
-                  </div>
+
                   <div class="col-12">
                      <input type="text" id="appointment_contact_number" placeholder="Contact number" name="contact_number">
                   </div>
