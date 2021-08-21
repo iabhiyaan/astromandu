@@ -100,7 +100,6 @@
             const { direction } = window.VueUse.useSwipe(this.$refs.header, {
                 onSwipe: (e) => {
                     if(direction.value === 'RIGHT') {
-                        console.log('k vako')
                         $("body").addClass("overlay");
                         $(".main-nav").css({ left: "0px" });
                     }
