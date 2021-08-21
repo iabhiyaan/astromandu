@@ -90,6 +90,31 @@
     </div>
 </section>
 <!-- footer section ends -->
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/@vueuse/shared"></script>
+<script src="https://unpkg.com/@vueuse/core"></script>
+
+<script>
+    Vue.createApp({
+        mounted() {
+            console.log(this.$refs)
+            const { direction } = window.VueUse.useSwipe(this.$refs.header, {
+                onSwipe: (e) => {
+                    if(direction.value === 'RIGHT') {
+                        console.log('k vako')
+                        $("body").addClass("overlay");
+                        $(".main-nav").css({ left: "0px" });
+                    }
+                    if(direction.value === 'LEFT') {
+                        $("body").removeClass("overlay");
+                        $(".main-nav").css({ left: "-290px" });
+                    }
+                }
+            })
+        },
+    }).mount('#app')
+</script>
+
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slick.min.js"></script>

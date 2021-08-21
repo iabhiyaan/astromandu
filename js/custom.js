@@ -43,14 +43,14 @@ function handleTouchMove(evt) {
     /*most significant*/
     if (xDiff > 0) {
       /* left swipe || close sidebar */
-      $("body").removeClass("overlay");
-      $(".main-nav").animate({ left: "-290px" }, 150);
-      $("body").animate({ left: "0px" }, 150);
+      // $("body").removeClass("overlay");
+      // $(".main-nav").animate({ left: "-290px" }, 150);
+      // $("body").animate({ left: "0px" }, 150);
     } else {
       /* right swipe || open sidebar */
-      $("body").addClass("overlay");
-      $(".main-nav").animate({ left: "0px" }, 150);
-      $("body").animate({ left: "250px" }, 150);
+      // $("body").addClass("overlay");
+      // $(".main-nav").animate({ left: "0px" }, 150);
+      // $("body").animate({ left: "250px" }, 150);
     }
   } else {
     if (yDiff > 0) {
@@ -73,8 +73,8 @@ $(document).click(function (event) {
     !$(event.target).is(".top-menu-bar")
   ) {
     $("body").removeClass("overlay");
-    $(".main-nav").animate({ left: "-290px" }, 300);
-    $("body").animate({ left: "0px" }, 300);
+    $(".main-nav").animate({ left: "-290px" }, 150);
+    $("body").animate({ left: "0px" }, 150);
   }
 });
 
@@ -144,18 +144,18 @@ $(document).ready(function () {
 // main pull menu //
 
 var main = function () {
-  $(".top-menu-bar").click(function () {
-    $("body").addClass("overlay");
+  // $(".top-menu-bar").click(function () {
+  //   $("body").addClass("overlay");
 
-    $(".main-nav").animate({ left: "0px" }, 300);
-    $("body").animate({ left: "250px" }, 300);
-  });
-  $(".close-btn").click(function () {
-    $("body").removeClass("overlay");
+  //   $(".main-nav").animate({ left: "0px" }, 300);
+  //   $("body").animate({ left: "250px" }, 300);
+  // });
+  // $(".close-btn").click(function () {
+  //   $("body").removeClass("overlay");
 
-    $(".main-nav").animate({ left: "-290px" }, 300);
-    $("body").animate({ left: "0px" }, 300);
-  });
+  //   $(".main-nav").animate({ left: "-290px" }, 300);
+  //   $("body").animate({ left: "0px" }, 300);
+  // });
 };
 
 $(document).ready(main);
