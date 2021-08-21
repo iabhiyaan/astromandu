@@ -97,7 +97,6 @@
 <script>
     Vue.createApp({
         mounted() {
-            console.log(this.$refs)
             const { direction } = window.VueUse.useSwipe(this.$refs.header, {
                 onSwipe: (e) => {
                     if(direction.value === 'RIGHT') {
